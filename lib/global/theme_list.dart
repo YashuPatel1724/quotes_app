@@ -29,7 +29,15 @@ List themes =
   'assets/theme/302593bb-3b07-43ce-8b63-1463876fe532.jpg',
   'assets/theme/abc40898-2fe6-4548-a64a-767bd9589e12.jpg',
   'assets/theme/c498b2a8-a421-4532-a13c-e855dd88c816.jpg',
-
+  'assets/theme/5b5e18e9-df7f-4a85-a4a0-db445d14d352.jpg',
+  'assets/theme/8f4539b3-51ff-40c1-bde2-1f7fec5773c9.jpg',
+  'assets/theme/679b4025-8b3f-45eb-a853-9ef4bc998835.jpg',
+  'assets/theme/black moon wallpaper.jpg',
+  'assets/theme/c33ced24-d381-4881-9076-460527c00e75.jpg',
+  'assets/theme/c3898572-aa7e-4f8a-b207-0b0926f4f282.jpg',
+  'assets/theme/Free Photo _ Full shot family members silhouettes outdoors.jpg',
+  'assets/theme/James sent you a Pin!.jpg',
+  'assets/theme/Premium Photo _ Yellow happy emoji character walking on a road.jpg',
 ];
 
-String img = 'assets/theme/AUTUMN LEAVES.jpg';
+String img = 'assets/theme/679b4025-8b3f-45eb-a853-9ef4bc998835.jpg';

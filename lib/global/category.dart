@@ -8,7 +8,12 @@ List categoryName = [
   'Mental Health',
   'Discipline',
   'Broken',
-  'friendship'
+  'friendship',
+  'Kindness',
+  'Happy',
+  'Sad',
+  'Respect',
+  'Family',
 ];
 
 List categoryImage= [
@@ -22,6 +27,11 @@ List categoryImage= [
   'assets/categary/discpline.jpg',
   'assets/categary/broken.jpg',
   'assets/categary/06bd1277-8c84-484f-b09f-36c2ada2c818.jpg',
+  'assets/categary/Kindness.jpg',
+  'assets/categary/HAPPY.jpg',
+  'assets/categary/sad.jpg',
+  'assets/categary/Respect.jpg',
+  'assets/categary/110 Life is Beautiful Quotes, Sayings and Images.jpg',
 ];
 
 List CategoryList = [

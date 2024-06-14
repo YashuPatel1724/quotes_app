@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:flutter_wallpaper_manager/flutter_wallpaper_manager.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
@@ -182,10 +183,12 @@ class _HomePageState extends State<HomePage> {
                                                             //     fontWeight: FontWeight.bold),
                                                             style: GoogleFonts
                                                                 .permanentMarker(
-                                                              textStyle: TextStyle(
-                                                                  fontSize: 18,
-                                                                  color: Colors
-                                                                      .white),
+                                                              textStyle:
+                                                                  const TextStyle(
+                                                                      fontSize:
+                                                                          18,
+                                                                      color: Colors
+                                                                          .white),
                                                             ),
                                                           ),
                                                           SizedBox(
@@ -267,7 +270,7 @@ class _HomePageState extends State<HomePage> {
 
                                                   ImageGallerySaver.saveImage(
                                                       img);
-                                                 //returns true/false
+                                                  //returns true/false
                                                 },
                                                 child: Container(
                                                   height: 40,
@@ -745,6 +748,60 @@ class _HomePageState extends State<HomePage> {
                               scrollDirection: Axis.horizontal,
                               child: Row(
                                 children: [
+                                  InkWell(
+                                    onTap: () {
+                                      showDialog(
+                                        barrierDismissible: false,
+                                        context: context,
+                                        builder: (context) => SimpleDialog(
+                                          title: const Text(
+                                            'Pick Color',
+                                            style: TextStyle(fontSize: 20),
+                                          ),
+                                          children: [
+                                            HueRingPicker(
+                                              pickerColor: color,
+                                              onColorChanged: (value) {
+                                                setState(() {
+                                                  color = value;
+                                                });
+                                              },
+                                            ),
+                                            Align(
+                                                alignment:
+                                                    Alignment.bottomRight,
+                                                child: Padding(
+                                                  padding:
+                                                      const EdgeInsets.only(
+                                                          right: 20.0),
+                                                  child: ElevatedButton(
+                                                    onPressed: () {
+                                                      Navigator.pop(context);
+                                                    },
+                                                      child: const Text(
+                                                    'Save',
+                                                    style: TextStyle(
+                                                        color: Colors.blue,
+                                                        fontSize: 20),
+                                                  )),
+                                                )),
+                                          ],
+                                        ),
+                                      );
+                                    },
+                                    child: Container(
+                                      margin: EdgeInsets.all(10),
+                                      height: 50,
+                                      width: 50,
+                                      decoration: const BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: AssetImage(
+                                                'assets/categary/360_F_411988337_xATUqAB8GmwZBMEbjqOg0lrVAcjSc5qP-removebg-preview.png'),
+                                          ),
+                                          shape: BoxShape.circle),
+                                    ),
+                                  ),
                                   ...List.generate(
                                     colorList.length,
                                     (index) => InkWell(
@@ -913,7 +970,6 @@ class _HomePageState extends State<HomePage> {
                                   bool result = await WallpaperManager
                                       .setWallpaperFromFile(
                                           file.path, location);
-
                                 },
                                 child: Container(
                                   height: 40,
@@ -969,28 +1025,5 @@ class _HomePageState extends State<HomePage> {
 
 int Index = 0;
 int selecIndex = 0;
-// Future<void> setWallpaper(BuildContext context, int wallpaperLocation,final fileImg) async {
-//   if (fileImg == null) {
-//     ScaffoldMessenger.of(context).showSnackBar(
-//       SnackBar(content: Text("No image available for setting wallpaper")),
-//     );
-//     return;
-//   }
-//
-//   try {
-//     await AsyncWallpaper.setWallpaperFromFile(
-//       filePath: fileImg!.path,
-//       wallpaperLocation: wallpaperLocation,
-//       goToHome: false, // Set to false to prevent redirection
-//       toastDetails: ToastDetails.success(),
-//       errorToastDetails: ToastDetails.error(),
-//     );
-//     ScaffoldMessenger.of(context).showSnackBar(
-//       SnackBar(content: Text("Wallpaper set successfully")),
-//     );
-//   } catch (e) {
-//     ScaffoldMessenger.of(context).showSnackBar(
-//       SnackBar(content: Text("Error setting wallpaper: ${e.toString()}")),
-//     );
-//   }
-// }
+
+// Color selectColor = Colors.white;

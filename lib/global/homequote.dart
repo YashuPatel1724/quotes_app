@@ -1054,5 +1054,427 @@ List QuotesList = [
     "author": "Marcus Tullius Cicero",
     'cate': "friendship",
     'like': false,
-  }
+  },
+  {
+    "quote":
+    "Kindness is a language which the deaf can hear and the blind can see.",
+    "author": "Mark Twain",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote": "Kindness is the sunshine in which virtue grows.",
+    "author": "Robert Green Ingersoll",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote": "No act of kindness, no matter how small, is ever wasted.",
+    "author": "Aesop",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote": "Kindness is the golden chain by which society is bound together.",
+    "author": "Johann Wolfgang von Goethe",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "Kindness in words creates confidence. Kindness in thinking creates profoundness. Kindness in giving creates love.",
+    "author": "Lao Tzu",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "Constant kindness can accomplish much. As the sun makes ice melt, kindness causes misunderstanding, mistrust, and hostility to evaporate.",
+    "author": "Albert Schweitzer",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "Kindness is the ability to know what the right thing to do is and having the courage to do it!",
+    "author": "R.A. Salvatore",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "Kindness is not a business. True kindness expects nothing in return and should never act with conditions.",
+    "author": "Roy T. Bennett",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "Kindness is the light that dissolves all walls between souls, families, and nations.",
+    "author": "Paramahansa",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "Kindness is the language which the deaf can hear and the blind can see.",
+    "author": "Mark Twain",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "Kindness is the only service that will stand the storm of life and not wash out. It will wear well and will be remembered long after the prism of politeness or the complexion of courtesy has faded away.",
+    "author": "Abraham Lincoln",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "Kindness can transform someone's dark moment with a blaze of light. You'll never know how much your caring matters. Make a difference for another today.",
+    "author": "Amy Leigh",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote": "Kindness is like snow - it beautifies everything it covers.",
+    "author": "Kahlil Gibran",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "Kindness is seeing the best in others when they cannot see it in themselves.",
+    "author": "Raktivist",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "Unexpected kindness is the most powerful, least costly, and most underrated agent of human change.",
+    "author": "Bob Kerrey",
+    'cate': 'Kindness',
+    'like': false,
+  },
+  {
+    "quote":
+    "The best way to cheer yourself up is to try to cheer somebody else up.",
+    "author": "Mark Twain",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote":
+    "Happiness is not something ready made. It comes from your own actions.",
+    "author": "Dalai Lama",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote":
+    "The only thing that will make you happy is being happy with who you are.",
+    "author": "Goldie Hawn",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote":
+    "Count your age by friends, not years. Count your life by smiles, not tears.",
+    "author": "John Lennon",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote": "Happiness is a warm puppy.",
+    "author": "Charles M. Schulz",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote":
+    "The most important thing is to enjoy your life—to be happy—it's all that matters.",
+    "author": "Audrey Hepburn",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote":
+    "The secret of happiness is not in doing what one likes, but in liking what one does.",
+    "author": "James M. Barrie",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote":
+    "The happiness of your life depends upon the quality of your thoughts.",
+    "author": "Marcus Aurelius",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote":
+    "It is not how much we have, but how much we enjoy, that makes happiness.",
+    "author": "Charles Spurgeon",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote":
+    "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+    "author": "Albert Schweitzer",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote": "The only joy in the world is to begin.",
+    "author": "Cesare Pavese",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote": "Happiness is not by chance, but by choice.",
+    "author": "Jim Rohn",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote":
+    "The happiness of your life depends upon the quality of your thoughts.",
+    "author": "Marcus Aurelius",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote": "The best way to predict the future is to create it.",
+    "author": "Abraham Lincoln",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote": "Be happy for this moment. This moment is your life.",
+    "author": "Omar Khayyam",
+    'cate': 'Happy',
+    'like': false,
+  },
+  {
+    "quote": "Tears come from the heart and not from the brain.",
+    "author": "Leonardo da Vinci",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "The walls we build around us to keep sadness out also keeps out the joy.",
+    "author": "Jim Rohn",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "Behind every sweet smile, there is a bitter sadness that no one can ever see and feel.",
+    "author": "Tupac Shakur",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote": "Sadness is but a wall between two gardens.",
+    "author": "Khalil Gibran",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "We gather strength from sadness and from pain. Each time we die we learn to live again.",
+    "author": "Unknown",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "The word 'happiness' would lose its meaning if it were not balanced by sadness.",
+    "author": "Carl Jung",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "The way sadness works is one of the strange riddles of the world. If you are stricken with a great sadness, you may feel as if you have been set aflame, not only because of the enormous pain but also because your sadness may spread over your life, like smoke from an enormous fire.",
+    "author": "Lemony Snicket",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "There are moments when I wish I could roll back the clock and take all the sadness away, but I have the feeling that if I did, the joy would be gone as well.",
+    "author": "Nicholas Sparks",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote": "Sadness flies away on the wings of time.",
+    "author": "Jean de La Fontaine",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "Sometimes, when one person is missing, the whole world seems depopulated.",
+    "author": "Alphonse de Lamartine",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "You cannot protect yourself from sadness without protecting yourself from happiness.",
+    "author": "Jonathan Safran Foer",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "Every man has his secret sorrows which the world knows not; and often times we call a man cold when he is only sad.",
+    "author": "Henry Wadsworth Longfellow",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "The tragedy of life is not that it ends so soon, but that we wait so long to begin it.",
+    "author": "W. M. Lewis",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote": "Sadness is also a kind of defense.",
+    "author": "Ivo Andrić",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote":
+    "It is sad not to love, but it is much sadder not to be able to love.",
+    "author": "Miguel de Unamuno",
+    'cate': 'Sad',
+    'like': false,
+  },
+  {
+    "quote": "Respect yourself and others will respect you.",
+    "author": "Confucius",
+    'cate': 'Respect',
+    'like': false,
+  },
+  {
+    "quote": "Knowledge will give you power, but character respect.",
+    "author": "Bruce Lee",
+    'cate': 'Respect',
+    'like': false,
+  },
+  {
+    "quote": "Respect is one of the greatest expressions of love.",
+    "author": "Miguel Angel Ruiz",
+    'cate': 'Respect',
+    'like': false,
+  },
+  {
+    "quote":
+    "Without feelings of respect, what is there to distinguish men from beasts?",
+    "author": "Confucius",
+    'cate': 'Respect',
+    'like': false,
+  },
+  {
+    "quote":
+    "To the living we owe respect, but to the dead we owe only the truth.",
+    "author": "Voltaire",
+    'cate': 'Respect',
+    'like': false,
+  },
+  {
+    "quote": "Respect is what we owe; love, what we give.",
+    "author": "Philip James Bailey",
+    'cate': 'Respect',
+    'like': false,
+  },
+  {
+    "quote":
+    "This is how you start to get respect, by offering something that you have.",
+    "author": "Mitch Albom",
+    'cate': 'Respect',
+    'like': false,
+  },
+  {
+    "quote":
+    "Everyone should be respected as an individual, but no one idolized.",
+    "author": "Albert Einstein",
+    'cate': 'Respect',
+    'like': false,
+  },
+  {
+    "quote": "Family is not an important thing. It's everything.",
+    "author": "Michael J. Fox",
+    'cate': 'Family',
+    'like': false,
+  },
+  {
+    "quote": "The love of a family is life's greatest blessing.",
+    "author": "Unknown",
+    'cate': 'Family',
+    'like': false,
+  },
+  {
+    "quote": "Family is where life begins and love never ends.",
+    "author": "Unknown",
+    'cate': 'Family',
+    'like': false,
+  },
+  {
+    "quote": "The family is one of nature's masterpieces.",
+    "author": "George Santayana",
+    'cate': 'Family',
+    'like': false,
+  },
+  {
+    "quote": "A happy family is but an earlier heaven.",
+    "author": "George Bernard Shaw",
+    'cate': 'Family',
+    'like': false,
+  },
+  {
+    "quote": "Rejoice with your family in the beautiful land of life.",
+    "author": "Albert Einstein",
+    'cate': 'Family',
+    'like': false,
+  },
+  {
+    "quote":
+    "Other things may change us, but we start and end with the family.",
+    "author": "Anthony Brandt",
+    'cate': 'Family',
+    'like': false,
+  },
+  {
+    "quote": "Family means no one gets left behind or forgotten.",
+    "author": "David Ogden Stiers",
+    'cate': 'Family',
+    'like': false,
+  },
+  {
+    "quote": "Family is the most important thing in the world.",
+    "author": "Princess Diana",
+    'cate': 'Family',
+    'like': false,
+  },
+  {
+    "quote": "The memories we make with our family is everything.",
+    "author": "Candace Cameron Bure",
+    'cate': 'Family',
+    'like': false,
+  },
+  {
+    "quote":
+    "A family is a place where minds come in contact with one another.",
+    "author": "Buddha",
+    'cate': 'Family',
+    'like': false,
+  },
 ];
